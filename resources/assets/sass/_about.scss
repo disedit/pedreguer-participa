@@ -1,0 +1,337 @@
+.about-block {
+  position: relative;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px $gray-lighter solid;
+
+  h3 {
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
+
+  h4 {
+    font-weight: bold;
+    background: lighten($brand-primary, 52%);
+    color: $brand-primary;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem -15px;
+    font-size: 1.25rem;
+  }
+
+  &__subtitle {
+    color: lighten($gray, 20%);
+    font-size: 1.25rem;
+  }
+
+  &__thumbnail {
+    width: 150px;
+    float: right;
+  }
+
+  &__info-thumbnail,
+  &__phases-thumbnail {
+    display: none;
+  }
+
+  &__highlight {
+    position: relative;
+    background: lighten($brand-primary, 52%);
+    color: $brand-primary;
+    padding: 2rem 2rem 2rem 7rem;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    margin: 1.5rem 0;
+
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      background: lighten($brand-primary, 52%);
+      width: 30px;
+      height: 30px;
+      left: 30px;
+      top: -10px;
+      border-radius: 0.4rem;
+      transform: rotate(45deg);
+    }
+
+    .far {
+      display: block;
+      position: absolute;
+      top: 2rem;
+      left: 2rem;
+      bottom: 2rem;
+      padding-right: 1rem;
+      font-size: 2.5rem;
+      border-right: 3px $brand-primary solid;
+      opacity: 0.25;
+    }
+  }
+
+  &__outlined-block {
+    border: 2px $gray-lighter dashed;
+    padding: 1rem;
+    color: $gray-light;
+    border-radius: 1rem;
+
+    a {
+      color: $gray-light;
+      text-decoration: underline;
+
+      &:hover {
+        color: $gray;
+      }
+    }
+  }
+
+  a.about-block__read-more-link {
+    display: inline-block;
+    color: $gray-light;
+    padding: 0.4rem 1rem 0.3rem 1rem;
+    margin-top: 0.5rem;
+    border: 1px $gray-light solid;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transform: 0.25s ease-in;
+
+    &:hover {
+      text-decoration: none;
+      color: $white;
+      background: lighten($gray-light, 10%);
+      border-color: lighten($gray-light, 10%);
+    }
+
+    &:focus,
+    &:active {
+      outline: 0;
+      box-shadow: 0 0 0 4px lighten($gray-light, 50%);
+    }
+  }
+
+  &__fine-print {
+    font-size: 0.85rem;
+    color: $gray-light;
+  }
+
+  &__01-hidden {
+    display: none;
+  }
+
+  &.about-block--last {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  &.about-block--calendar {
+    p {
+      font-size: 0.9rem;
+    }
+  }
+
+  .options-title {
+    background: $white;
+    padding: 0;
+    color: $gray-dark;
+  }
+}
+
+.options-widget {
+  &:last {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  h4 {
+    color: $gray;
+    font-size: 1.25rem;
+  }
+
+  .card-columns {
+    column-gap: 1.5rem;
+  }
+
+  &__random {
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    color: $gray-500;
+  }
+}
+
+.phases {
+  margin-bottom: 1.5rem;
+}
+
+.phase {
+  display: flex;
+
+  &__calendar {
+    flex-shrink: 0;
+    margin-right: 1rem;
+
+    .calendar {
+      border: 2px $brand-primary solid;
+      width: 100px;
+      margin-top: 3px;
+
+      &__heading {
+        font-size: 0.75rem;
+      }
+
+      &__dates {
+        padding: 0.25rem;
+      }
+
+      &__days {
+        font-size: 1rem;
+      }
+
+      &__month {
+        font-size: 1rem;
+      }
+
+      &.calendar--red {
+        border: 2px darken($red, 10%) solid;
+
+        .calendar__dates {
+          color: darken($red, 10%);
+        }
+
+        .calendar__heading {
+          background: darken($red, 10%);
+        }
+      }
+    }
+  }
+
+  &__path {
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    opacity: 0.25;
+
+    img {
+      height: 80px;
+    }
+  }
+}
+
+.option {
+  &__card {
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 1rem;
+    box-shadow: 0px 2px 15px -5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+    transition-timing-function: ease-out;
+    transition-duration: .15s;
+    border: 2px darken($gray-lighter, 10%) solid;
+    border-radius: 2px;
+
+    &:hover {
+      text-decoration: none;
+      box-shadow: 0px 6px 25px -7px rgba(0, 0, 0, 0.5);
+      transform: translateY(-3px);
+      background: lighten($brand-primary, 65%);
+      border-color: lighten($brand-primary, 10%);
+    }
+
+    h5 {
+      margin-bottom: 0;
+    }
+  }
+
+  &__cost {
+    color: $gray-500;
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+  }
+}
+
+.option.card {
+  border: 0;
+  margin: 0;
+}
+
+.calendars {
+  margin: 2rem 0;
+
+  .calendar {
+    margin: 0;
+  }
+}
+
+.categories {
+  margin-bottom: 1rem;
+}
+
+.categories li {
+  color: $gray;
+	margin-bottom: 0.5rem;
+}
+
+@include media-breakpoint-up(lg) {
+  .columns {
+    column-count: 2;
+    column-gap: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .phases-compact {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5rem;
+
+    .phase {
+      width: 20%;
+      flex-direction: column;
+
+      &__path {
+        display: none;
+      }
+
+      &__text {
+        margin-top: 1rem;
+        padding-right: 1.5rem;
+      }
+
+      .calendar {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .about-block {
+    h4 {
+      padding: 0.5rem 0.75rem;
+      margin: 0.5rem 0;
+      border-radius: 0.4rem;
+    }
+
+    &__thumbnail {
+      float: right;
+      width: 200px;
+    }
+
+    &__info-thumbnail {
+      display: block;
+      position: absolute;
+      width: 319px;
+      right: -375px;
+      bottom: 0;
+    }
+
+    &__phases-thumbnail {
+      display: block;
+      position: absolute;
+      width: 319px;
+      right: -372px;
+      bottom: 60px;
+    }
+  }
+}
