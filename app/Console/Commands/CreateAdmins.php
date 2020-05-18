@@ -4,6 +4,7 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 use App\User;
+use Illuminate\Support\Str;
 
 class CreateAdmins extends Command
 {
@@ -50,7 +51,7 @@ class CreateAdmins extends Command
                 continue;
             }
 
-            $randomPassword = str_random(12);
+            $randomPassword = Str::random(12);
             $isSuperadmin = ($superadmin) ? 1 : 0;
             $table[] = [$user, $randomPassword, $isSuperadmin];
 

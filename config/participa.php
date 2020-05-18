@@ -9,32 +9,32 @@ return [
     */
 
     /* The name of the city */
-    'municipality' => 'Guadasséquies',
+    'municipality' => 'Pedreguer',
 
     /* The name of the council */
-    'council_name' => 'Ajuntament de Guadasséquies',
+    'council_name' => 'Ajuntament de Pedreguer',
 
     /* The council's home page */
-    'council_url' => 'http://www.guadasequies.es',
+    'council_url' => 'https://pedreguer.es',
 
     /* The council's logo / coat of arms */
-    'council_logo' => 'escut.svg',
+    'council_logo' => 'council.png',
 
     /* The e-mail where users can contact for support */
-    'contact_email' => 'ajuda@guadassequiesparticipa.com',
+    'contact_email' => 'ajuda@pedreguerparticipa.com',
 
     /* The council's address */
-    'contact_address' => 'Av. De La Constitució, 14',
+    'contact_address' => 'C/ Ajuntament, 7',
 
     /* The council's contact phone */
-    'contact_phone' => '96 229 30 05',
+    'contact_phone' => '965 760 712',
 
     /* The council's facebook page and app ID */
-    'facebook' => 'https://www.facebook.com/AjuntaGuadassequies/',
+    'facebook' => 'https://www.facebook.com/AjuntPedreguer/',
     'facebook_app_id' => '180444172483336',
 
     /* The council's twitter account */
-    'twitter' => '',
+    'twitter' => 'ajuntpedreguer',
 
     /*
     |--------------------------------------------------------------------------

@@ -1,14 +1,14 @@
 <section aria-labelledby="about-1" class="about-block" aria-live="polite">
-    <h3 id="about-1">Què és #GuadasséquiesParticipa?</h3>
+    <h3 id="about-1">Què és #PedreguerParticipa?</h3>
     <img src="/images/choice-2.svg" class="about-block__thumbnail" alt="" aria-hidden="true" />
 
-    <p>El Govern de Guadasséquies vol aprofundir en la regeneració democràtica i la participació. Regeneració democràtica que passa per donar veu als ciutadans i ciutadanes i acostar-los a la presa de decisions. Per això, en aquest exercici la ciutadania de Guadasséquies podrà proposar els projectes d'inversions que estimen més oportuns i convenients i després decidir la prioritat de cadascun amb una consulta ciutadana.</p>
+    <p>El Govern de Pedreguer vol aprofundir en la regeneració democràtica i la participació. Regeneració democràtica que passa per donar veu als ciutadans i ciutadanes i acostar-los a la presa de decisions. Per això, en aquest exercici la ciutadania de Pedreguer podrà proposar els projectes d'inversions que estimen més oportuns i convenients i després decidir la prioritat de cadascun amb una consulta ciutadana.</p>
 
-    <p>En la primera part, la ciutadania de Guadasséquies podrà enviar, mitjançant un formulari habilitat en el web, les seues propostes per a projectes d'inversions que creguen convenients. </p>
+    <p>En la primera part, la ciutadania de Pedreguer podrà enviar, mitjançant un formulari habilitat en el web, les seues propostes per a projectes d'inversions que creguen convenients. </p>
 
     <p>Una vegada rebuts i esgotat el termini, els tècnics de l'Ajuntament destriaran quins projectes són de competència municipal i quins no, així com quines propostes es poden dur endavant i quines no, i en donarà forma per tal de presentar-les al procés de votació. Es publicarà un document amb les propostes desestimades i les raons per les quals ho han estat. </p>
 
-    <p>Finalment, la ciutadania de Guadasséquies podrà triar i ordenar per prioritats entre els projectes sotmesos finalment a votació mitjançant un procés telemàtic que es vehicularà a través d'aquesta web.</p>
+    <p>Finalment, la ciutadania de Pedreguer podrà triar i ordenar per prioritats entre els projectes sotmesos finalment a votació mitjançant un procés telemàtic que es vehicularà a través d'aquesta web.</p>
 
     <p>Tots i totes proposem i decidim les qüestions que afecten al nostre poble, tots i totes fem sentir la nostra veu!</p>
 </section>
@@ -17,7 +17,7 @@
   <h3 id="about-1">Què decidirem?</h3>
   <p class="about-block__highlight">
       <i class="far fa-question-circle"></i>
-      La ciutadania decidirà quines propostes es consideren millors per al poble de Guadasséquies, amb una inversió màxima de <strong>10.000€</strong>
+      La ciutadania decidirà quines propostes es consideren millors per al poble de Pedreguer, amb una inversió màxima de <strong>10.000€</strong>
   </p>
 </section>
 
@@ -25,19 +25,19 @@
   <h3 id="about-4">Informació sobre la votació</h3>
   <img src="/images/choice.svg" class="about-block__info-thumbnail" alt="" aria-hidden="true">
   <div class="columns">
-      <h4>Qui pot participar a #GuadasséquiesParticipa?</h4>
+      <h4>Qui pot participar a #PedreguerParticipa?</h4>
       <p>
-        Podran participar en aquest procés totes aquelles persones i/o associacions que així ho desitgen i estiguen empadronades al municipi de Guadasséquies.
+        Podran participar en aquest procés totes aquelles persones i/o associacions que així ho desitgen i estiguen empadronades al municipi de Pedreguer.
       </p>
 
       <h4>Qui pot votar?</h4>
       <p>
-        Podran votar en aquest procés aquelles persones majors de 16 anys empadronades a <strong>Guadasséquies</strong>, d’acord al padró de data 1 de gener de 2020.
+        Podran votar en aquest procés aquelles persones majors de 16 anys empadronades a <strong>Pedreguer</strong>, d’acord al padró de data 1 de gener de 2020.
       </p>
 
       <h4>Què es votarà?</h4>
       <p>
-        S'ordenaran per ordre de prioritat els projectes que la ciutadania de Guadasséquies haja proposat i als quals el Govern de Guadasséquies haja donat forma i contingut.
+        S'ordenaran per ordre de prioritat els projectes que la ciutadania de Pedreguer haja proposat i als quals el Govern de Pedreguer haja donat forma i contingut.
       </p>
 
       <h4>Es podrà votar per internet?</h4>

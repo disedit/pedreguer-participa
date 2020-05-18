@@ -4,8 +4,8 @@
     </div>
 
     <div class="media">
-        <a href="{{ config('participa.council_url') }}" target="_blank" rel="noopener" title="{{ config('participa.council_name', 'Any Council') }}">
-            <img src="{{ '/images/' . config('participa.council_logo', 'council.png') }}" alt="{{ config('participa.council_name', 'Any Council') }}" width="60" class="d-flex align-self-start mr-3" />
+        <a href="{{ config('participa.council_url') }}" target="_blank" rel="noopener" title="{{ config('participa.council_name', 'Any Council') }}" class="d-block" style="width: 60px; overflow: hidden;">
+            <img src="{{ '/images/' . config('participa.council_logo', 'council.png') }}" alt="{{ config('participa.council_name', 'Any Council') }}" width="200" class="d-flex align-self-start mr-3" />
         </a>
 
         <div class="media-body council-details">

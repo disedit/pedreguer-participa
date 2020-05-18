@@ -11,10 +11,10 @@ return [
     'twitter_locale' => 'en',
     'facebook_locale' => 'en_GB',
     'heading' => 'You have a say on the Council\'s decisions!',
-    'subheading' => 'The Town Council of Guadasséquies lets you take an active part in the decisions that affect you the most.',
-    'tweet' => 'I have voted on which projects I want @EsGuadasséquies to invest in',
-    'description' => 'You have a say on the Council\'s decisions. The City Council of Guadasséquies lets you take an active part in the decisions that affect you the most.',
-    'keywords' => 'Guadasséquies, council, ayuntamiento, govern, obert, participacio ciutadana, democracia participativa, Guadasséquies participa, votació, votación, referendum',
+    'subheading' => 'The Town Council of Pedreguer lets you take an active part in the decisions that affect you the most.',
+    'tweet' => 'I have voted on which projects I want @EsPedreguer to invest in',
+    'description' => 'You have a say on the Council\'s decisions. The City Council of Pedreguer lets you take an active part in the decisions that affect you the most.',
+    'keywords' => 'Pedreguer, council, ayuntamiento, govern, obert, participacio ciutadana, democracia participativa, Pedreguer participa, votació, votación, referendum',
 
     /*
     |--------------------------------------------------------------------------

@@ -11,10 +11,10 @@ return [
     'twitter_locale' => 'es',
     'facebook_locale' => 'ca_ES',
     'heading' => 'Tu decideixes en què inverteix l\'Ajuntament!',
-    'subheading' => 'El Govern de Guadasséquies t\'obri la possibilitat de participar activament en les decisions que més t\'afecten.',
-    'tweet' => 'He votat en què projectes vull que Guadasséquies invertisca',
-    'description' => 'Tu decideixes les inversions de l\'Ajuntament. El Govern de Guadasséquies t\'obri la possibilitat de participar activament en les decisions que més t\'afecten. Junts volem millorar Guadasséquies, i el teu vot compta!',
-    'keywords' => 'Guadasséquies, ajuntament, ayuntamiento, govern, obert, participacio ciutadana, democracia participativa, Guadasséquies participa, votació, votación, referendum',
+    'subheading' => 'El Govern de Pedreguer t\'obri la possibilitat de participar activament en les decisions que més t\'afecten.',
+    'tweet' => 'He votat en què projectes vull que Pedreguer invertisca',
+    'description' => 'Tu decideixes les inversions de l\'Ajuntament. El Govern de Pedreguer t\'obri la possibilitat de participar activament en les decisions que més t\'afecten. Junts volem millorar Pedreguer, i el teu vot compta!',
+    'keywords' => 'Pedreguer, ajuntament, ayuntamiento, govern, obert, participacio ciutadana, democracia participativa, Pedreguer participa, votació, votación, referendum',
 
     /*
     |--------------------------------------------------------------------------

@@ -11,10 +11,10 @@ return [
     'twitter_locale' => 'es',
     'facebook_locale' => 'es_ES',
     'heading' => '¡Tú decides en qué invierte el Ayuntamiento!',
-    'subheading' => 'El Gobierno de Guadasséquies te abre la posibilidad de participar activamente en las decisioines que más te afectan.',
-    'tweet' => 'He votado en qué proyectos quiero que @EsGuadasséquies invierta',
-    'description' => 'Tú decides las inversiones del Ayuntamiento. El Gobierno de Guadasséquies te abre la posibilidad de participar activamente en las decisioines que más te afectan. Juntos queremos mejorar Guadasséquies, ¡y tu voto cuenta!',
-    'keywords' => 'Guadasséquies, ajuntament, ayuntamiento, govern, obert, participacio ciutadana, democracia participativa, Guadasséquies participa, votació, votación, referendum',
+    'subheading' => 'El Gobierno de Pedreguer te abre la posibilidad de participar activamente en las decisioines que más te afectan.',
+    'tweet' => 'He votado en qué proyectos quiero que @EsPedreguer invierta',
+    'description' => 'Tú decides las inversiones del Ayuntamiento. El Gobierno de Pedreguer te abre la posibilidad de participar activamente en las decisioines que más te afectan. Juntos queremos mejorar Pedreguer, ¡y tu voto cuenta!',
+    'keywords' => 'Pedreguer, ajuntament, ayuntamiento, govern, obert, participacio ciutadana, democracia participativa, Pedreguer participa, votació, votación, referendum',
 
     /*
     |--------------------------------------------------------------------------
@@ -31,7 +31,7 @@ return [
     'vote' => 'Vota',
     'print' => 'Imprime',
     'close' => 'Cierra',
-    'ordered_randomly' => 'Ordenadas Guadasséquiestoriamente',
+    'ordered_randomly' => 'Ordenadas Pedreguertoriamente',
     'SMS_notification' => 'Tu código para votar es :code',
 
     /*

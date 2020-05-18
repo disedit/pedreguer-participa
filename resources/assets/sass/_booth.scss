@@ -164,10 +164,10 @@
     overflow: hidden;
 
     &:hover {
-      background: lighten($brand-primary, 50%);
+      background: mix($white, $brand-primary, 75%);
       transform: translateY(-4px);
       box-shadow: $card-raised-shadow;
-      border-color: lighten($brand-primary, 10%);
+      border-color: mix($white, $brand-primary, 10%);
 
       .custom-control-label:before {
         background: rgba(0, 0, 0, 0.1);
@@ -175,7 +175,7 @@
     }
 
     &:active {
-      background: lighten($brand-primary, 45%);
+      background: mix( $white,$brand-primary, 45%);
     }
   }
 
@@ -213,7 +213,7 @@
 .template-2column,
 .template-simple {
   .selected {
-    background: lighten($brand-primary, 50%);
+    background: mix($white, $brand-primary, 75%);
     box-shadow: inset -4px 0px 0px 0px $brand-primary;
   }
 }

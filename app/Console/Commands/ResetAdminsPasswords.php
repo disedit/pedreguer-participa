@@ -4,6 +4,7 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 use App\User;
+use Illuminate\Support\Str;
 
 class ResetAdminsPasswords extends Command
 {
@@ -39,7 +40,7 @@ class ResetAdminsPasswords extends Command
                 continue;
             }
 
-            $randomPassword = str_random(12);
+            $randomPassword = Str::random(12);
             $table[] = [$username, $randomPassword];
             $user->password = bcrypt($randomPassword);
             $user->save();
