@@ -4,6 +4,7 @@
       <router-view
         class="child-view"
         :identifier="ID"
+        :year="year"
         :ballot="ballot"
         :selected="selected"
         :phone="phone"
@@ -38,11 +39,18 @@
         errors: {},
         receipt: {},
         ID: '',
+        year: '',
         phone: '',
         countryCode: 34,
         smsCode: '',
         smsRequested: false,
         transitionName: 'slide-left'
+      }
+    },
+
+    computed: {
+      fullID () {
+        return this.ID.substr(this.ID.length - 5) + this.year;
       }
     },
 
@@ -177,7 +185,7 @@
 
         Participa.precheck({
           ballot: this.selected,
-          SID: this.ID
+          SID: this.fullID
         }).then(response => {
           this.$router.push({ path: '/booth/verify' });
         }).catch(errors => {
@@ -192,7 +200,7 @@
 
         Participa.requestSMS({
           ballot: this.selected,
-          SID: this.ID,
+          SID: this.fullID,
           phone: this.phone,
           country_code: this.countryCode
         }).then(response => {
@@ -216,7 +224,7 @@
 
         Participa.castBallot({
           ballot: this.selected,
-          SID: this.ID,
+          SID: this.fullID,
           phone: this.phone,
           country_code: this.countryCode,
           SMS_code: this.smsCode

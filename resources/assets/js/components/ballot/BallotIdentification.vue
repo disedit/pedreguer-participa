@@ -2,17 +2,24 @@
   <div class="ballot-identification ballot-box">
     <h3><i class="fa fa-user" aria-hidden="true"></i> {{ $t('booth_identification.heading') }}</h3>
     <p class="subheading" v-html="$t('booth_identification.subheading', { min_age, municipality })"></p>
-    <text-input
-      name="identification"
-      ref="identificationInput"
-      :label="$t('booth_identification.label')"
-      :tooltip="$t('booth_identification.tooltip')"
-      :required="true"
-      :value="identifier"
-      :autofocus="autofocus"
-      @update="updateID"
-      @focus="autofocus = true"
-      @blur="autofocus = false" />
+    <div class="d-flex">
+      <text-input
+        name="identification"
+        ref="identificationInput"
+        :label="$t('booth_identification.label')"
+        :tooltip="$t('booth_identification.tooltip')"
+        :required="true"
+        :value="identifier"
+        :autofocus="autofocus"
+        @update="updateID"
+        @focus="autofocus = true"
+        @blur="autofocus = false"
+        style="width: 70%;" />
+      <year-select
+        :value="year"
+        @change="updateYear"
+        style="width: 30%;" />
+    </div>
 
     <hr aria-hidden="true" />
 
@@ -31,17 +38,20 @@
 
 <script>
   import TextInput from '../helpers/TextInput';
+  import YearSelect from '../helpers/YearSelect'
 
   export default {
     name: 'ballot-identification',
 
     components: {
-      TextInput
+      TextInput,
+      YearSelect
     },
 
     props: {
       loading: Boolean,
-      identifier: String
+      identifier: String,
+      year: String
     },
 
     data () {
@@ -49,7 +59,8 @@
         municipality: '',
         min_age: '16',
         anonymous_voting: false,
-        autofocus: false
+        autofocus: false,
+        fourDigits: ''
       }
     },
 
@@ -77,6 +88,16 @@
         // Reset phone, country code and SMS request
         // in case user came from a previous step
         // and has changed their ID for whetever reason
+        Bus.$emit('fieldUpdated', 'phone', '');
+        Bus.$emit('fieldUpdated', 'countryCode', 34);
+        Bus.$emit('fieldUpdated', 'smsRequested', false);
+        Bus.$emit('fieldUpdated', 'smsCode', '');
+      },
+
+      updateYear (value) {
+        Bus.$emit('fieldUpdated', 'year', value);
+
+        // see updateID
         Bus.$emit('fieldUpdated', 'phone', '');
         Bus.$emit('fieldUpdated', 'countryCode', 34);
         Bus.$emit('fieldUpdated', 'smsRequested', false);

@@ -85,6 +85,10 @@
       padding-left: 1rem;
       padding-bottom: 0.4rem;
       border-width: 0.2rem;
+
+      &:focus {
+        border-color: $brand-primary !important;
+      }
     }
   }
 

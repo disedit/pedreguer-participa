@@ -15,7 +15,7 @@
           <ballot-loading />
         </div>
 
-        <ballot-identification :identifier="identifier" :loading="isLoading" />
+        <ballot-identification :identifier="identifier" :year="year" :loading="isLoading" />
       </form>
     </div>
     <div class="col-md-4" v-if="!boothMode">
@@ -51,6 +51,7 @@
       ballot: Object,
       selected: Array,
       identifier: String,
+      year: String
     },
 
     created () {

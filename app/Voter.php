@@ -38,7 +38,11 @@ class Voter extends Model
     public static function findBySID($SID, $editionId)
     {
         if (!$editionId) $editionId = Edition::current()->id;
-        return Self::where('SID', $SID)->where('edition_id', $editionId)->first();
+
+        return Self::where(function ($query) use ($SID) {
+            $query->where('SID', $SID)
+                ->orWhere('SID', substr($SID, 0, 5));
+        })->where('edition_id', $editionId)->orderBy('SID', 'desc')->first();
     }
 
     /**
