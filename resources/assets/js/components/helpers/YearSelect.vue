@@ -41,7 +41,6 @@
   .input {
     position: relative;
     height: 4.4375rem;
-    margin-left: 1rem;
 
 
     select {

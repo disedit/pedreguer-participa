@@ -2,23 +2,25 @@
   <div class="ballot-identification ballot-box">
     <h3><i class="fa fa-user" aria-hidden="true"></i> {{ $t('booth_identification.heading') }}</h3>
     <p class="subheading" v-html="$t('booth_identification.subheading', { min_age, municipality })"></p>
-    <div class="d-flex">
-      <text-input
-        name="identification"
-        ref="identificationInput"
-        :label="$t('booth_identification.label')"
-        :tooltip="$t('booth_identification.tooltip')"
-        :required="true"
-        :value="identifier"
-        :autofocus="autofocus"
-        @update="updateID"
-        @focus="autofocus = true"
-        @blur="autofocus = false"
-        style="width: 70%;" />
-      <year-select
-        :value="year"
-        @change="updateYear"
-        style="width: 30%;" />
+    <div class="row">
+      <div class="col-lg-8 mb-2 mb-lg-0">
+        <text-input
+          name="identification"
+          ref="identificationInput"
+          :label="$t('booth_identification.label')"
+          :tooltip="$t('booth_identification.tooltip')"
+          :required="true"
+          :value="identifier"
+          :autofocus="autofocus"
+          @update="updateID"
+          @focus="autofocus = true"
+          @blur="autofocus = false" />
+      </div>
+      <div class="col-lg-4">
+        <year-select
+          :value="year"
+          @change="updateYear" />
+      </div>
     </div>
 
     <hr aria-hidden="true" />
