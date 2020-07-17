@@ -11,7 +11,7 @@
 
   h4 {
     font-weight: bold;
-    background: lighten($brand-primary, 52%);
+    background: lighten($brand-primary, 44%);
     color: $brand-primary;
     padding: 0.5rem 1rem;
     margin: 0.5rem -15px;
@@ -35,7 +35,7 @@
 
   &__highlight {
     position: relative;
-    background: lighten($brand-primary, 52%);
+    background: lighten($brand-primary, 44%);
     color: $brand-primary;
     padding: 2rem 2rem 2rem 7rem;
     border-radius: 1rem;
@@ -46,7 +46,7 @@
       content: '';
       display: block;
       position: absolute;
-      background: lighten($brand-primary, 52%);
+      background: lighten($brand-primary, 44%);
       width: 30px;
       height: 30px;
       left: 30px;
@@ -65,6 +65,29 @@
       font-size: 2.5rem;
       border-right: 3px $brand-primary solid;
       opacity: 0.25;
+    }
+  }
+
+  &__warning {
+    position: relative;
+    background: lighten($warning, 44%);
+    color: darken($warning, 20%);
+    padding: 1rem 1rem 1rem 5rem;
+    border-radius: .5rem;
+    font-size: 1rem !important;
+    margin: 1rem 0;
+    font-weight: bold;
+
+    .far {
+      display: block;
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      bottom: 1rem;
+      padding-right: 1rem;
+      font-size: 2rem;
+      border-right: 2px darken($warning, 20%) solid;
+      opacity: 0.5;
     }
   }
 

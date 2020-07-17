@@ -10,10 +10,10 @@ return [
     'locale' => 'ca',
     'twitter_locale' => 'es',
     'facebook_locale' => 'ca_ES',
-    'heading' => 'Tu decideixes en què inverteix l\'Ajuntament!',
-    'subheading' => 'El Govern de Pedreguer t\'obri la possibilitat de participar activament en les decisions que més t\'afecten.',
+    'heading' => 'Pedreguer Participa',
+    'subheading' => 'Els veïns de Pedreguer decidirem directament la prioritat de les inversions del nostre poble.',
     'tweet' => 'He votat en què projectes vull que Pedreguer invertisca',
-    'description' => 'Tu decideixes les inversions de l\'Ajuntament. El Govern de Pedreguer t\'obri la possibilitat de participar activament en les decisions que més t\'afecten. Junts volem millorar Pedreguer, i el teu vot compta!',
+    'description' => 'Els veïns de Pedreguer decidirem directament la prioritat de les inversions del nostre poble.',
     'keywords' => 'Pedreguer, ajuntament, ayuntamiento, govern, obert, participacio ciutadana, democracia participativa, Pedreguer participa, votació, votación, referendum',
 
     /*
