@@ -83,7 +83,7 @@
                     <div class="calendar__heading">Avaluació</div>
                     <div class="calendar__dates">
                         <div class="calendar__days"><strong>1</strong> - <strong>13</strong></div>
-                        <div class="calendar__month">ago/sep</div>
+                        <div class="calendar__month">ago/sept</div>
                     </div>
                 </div>
             </div>
@@ -103,8 +103,8 @@
                 <div class="calendar calendar--red">
                     <div class="calendar__heading">Votació</div>
                     <div class="calendar__dates">
-                        <div class="calendar__days"><strong>1</strong> - <strong>7</strong></div>
-                        <div class="calendar__month">juny</div>
+                        <div class="calendar__days"><strong>14</strong> - <strong>30</strong></div>
+                        <div class="calendar__month">setembre</div>
                     </div>
                 </div>
             </div>
