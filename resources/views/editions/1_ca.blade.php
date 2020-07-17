@@ -38,15 +38,6 @@
         els que es pronunciaran sobre els projectes que consideren
         prioritaris.
     </p>
-    <p class="about-block__warning">
-        <i class="far fa-exclamation-circle"></i>
-        L’Equip de Govern comunica a la ciutadania que prioritzarà
-        les necessitats de persones i empreses afectades per
-        l’actual pandèmia. Per aquest motiu, si l’any 2021 foren
-        necessaris els diners destinats a aquests pressupostos
-        participatius per a pal·liar les conseqüències de la COVID-
-        19, les propostes més votades s’executarien l’any següent.
-    </p>
 </section>
 
 <section id="calendar" aria-labelledby="about-2" class="about-block about-block--calendar">
@@ -119,3 +110,13 @@
 
     <p class="about-block__fine-print mt-4 mb-0">* Les dates del calendari poden sofrir variacions</p>
 </section>
+
+<p class="about-block__warning">
+    <i class="far fa-exclamation-circle"></i>
+    L’Equip de Govern comunica a la ciutadania que prioritzarà
+    les necessitats de persones i empreses afectades per
+    l’actual pandèmia. Per aquest motiu, si l’any 2021 foren
+    necessaris els diners destinats a aquests pressupostos
+    participatius per a pal·liar les conseqüències de la COVID-
+    19, les propostes més votades s’executarien l’any següent.
+</p>
