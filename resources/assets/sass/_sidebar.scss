@@ -71,14 +71,14 @@ $sidebar-text: $gray-light;
       text-align: left;
       font-size: 1rem;
       padding: 1rem 1.5rem;
-      background: lighten($brand-primary, 52%);
+      background: lighten($brand-primary, 35%);
       border: 0;
-      color: $brand-primary;
+      color: darken($brand-primary, 13%);
       font-weight: bold;
 
       &:hover {
-        background: lighten($green, 35%);
-        color: darken($green, 10%);
+        background: lighten($green, 30%);
+        color: darken($green, 18%);
       }
 
       .far {
