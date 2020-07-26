@@ -23,8 +23,8 @@
         efectiva de la ciutadania.
     </p>
     <p>
-        A tal efecte, s’obri, en primer lloc, un termini per a que tots els
-        ciutadans puguen proposar la seva proposta d’inversions.
+        A tal efecte, s’obri, en primer lloc, un termini per a que tota
+        la ciutadania puga proposar la seva proposta d’inversions.
     </p>
     <p>
         Posteriorment, en una segona fase, aquestes propostes seran
