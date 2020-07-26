@@ -11,9 +11,9 @@ return [
     'twitter_locale' => 'es',
     'facebook_locale' => 'ca_ES',
     'heading' => 'Pedreguer Participa',
-    'subheading' => 'Els veïns de Pedreguer decidirem directament la prioritat de les inversions del nostre poble.',
+    'subheading' => 'Els veïns i les veïnes de Pedreguer decidirem directament la prioritat de les inversions del nostre poble.',
     'tweet' => 'He votat en què projectes vull que Pedreguer invertisca',
-    'description' => 'Els veïns de Pedreguer decidirem directament la prioritat de les inversions del nostre poble.',
+    'description' => 'Els veïns i les veïnes de Pedreguer decidirem directament la prioritat de les inversions del nostre poble.',
     'keywords' => 'Pedreguer, ajuntament, ayuntamiento, govern, obert, participacio ciutadana, democracia participativa, Pedreguer participa, votació, votación, referendum',
 
     /*
