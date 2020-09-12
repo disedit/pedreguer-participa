@@ -111,6 +111,11 @@
     <p class="about-block__fine-print mt-4 mb-0">* Les dates del calendari poden sofrir variacions</p>
 </section>
 
+<section id="calendar" aria-labelledby="about-2" class="about-block about-block--calendar">
+    <h3 id="about-2">Propostes</h3>
+    [options]
+</section>
+
 <p class="about-block__warning">
     <i class="far fa-exclamation-circle"></i>
     L’Equip de Govern comunica a la ciutadania que prioritzarà
