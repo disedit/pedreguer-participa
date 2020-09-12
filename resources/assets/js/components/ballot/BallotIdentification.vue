@@ -14,7 +14,9 @@
           :autofocus="autofocus"
           @update="updateID"
           @focus="autofocus = true"
-          @blur="autofocus = false" />
+          @blur="autofocus = false"
+          aria-describedby="id_tooltip" />
+          <div class="text-muted" id="id_tooltip">{{ $t('booth_identification.id_tooltip') }}</div>
       </div>
       <div class="col-lg-4">
         <year-select
@@ -123,6 +125,12 @@
     font-size: 1rem;
     margin-bottom: 0;
     margin-top: 1rem;
+  }
+
+  #id_tooltip {
+    line-height: 1;
+    margin: .75rem 0 .75rem;
+    font-size: .85rem;
   }
 
 </style>

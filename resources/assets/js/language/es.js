@@ -19,6 +19,7 @@ export default {
     heading: 'Identificación',
     subheading: 'Puedes votar si tienes más de <strong>{min_age} años</strong> y estás empadronado en <strong>{municipality}</strong>',
     label: 'DNI, NIE o Pasaporte',
+    id_tooltip: 'Solo hace falta introducir los últimos 4 dígitos + letra',
     tooltip: 'Pasaporte sólo si eres residente extranjero',
     button: 'Vota',
     anonymous_voting: 'Tu voto es anónimo y será encriptado'

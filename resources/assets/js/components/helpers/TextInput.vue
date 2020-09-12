@@ -17,6 +17,7 @@
     @focus="focused = true; $emit('focus');"
     @blur="focused = value ? true : false; $emit('blur');"
     :required="required"
+    v-bind="$attrs"
     :class="{ 'form-control form-control-lg': true, 'form-control-warning': warning }" />
 
   </div>
