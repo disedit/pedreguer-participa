@@ -44,10 +44,20 @@
     <main class="main-background" id="content">
         <div class="container main-container">
             @isset($isArchive)
-                <div class="alert alert-primary mb-4"><i class="far fa-archive" aria-hidden="true"></i> @lang('participa.is_archive', ['end_date' => human_date($edition->end_date) . ' ' . date('Y', strtotime($edition->end_date))])</div>
+                <div class="alert alert-primary mb-4" role="alert"><i class="far fa-archive" aria-hidden="true"></i> @lang('participa.is_archive', ['end_date' => human_date($edition->end_date) . ' ' . date('Y', strtotime($edition->end_date))])</div>
             @endisset
 
             @yield('content')
+
+            <p class="about-block__warning" role="alert">
+                <i class="far fa-exclamation-circle"></i>
+                L’Equip de Govern comunica a la ciutadania que prioritzarà
+                les necessitats de persones i empreses afectades per
+                l’actual pandèmia. Per aquest motiu, si l’any 2021 foren
+                necessaris els diners destinats a aquests pressupostos
+                participatius per a pal·liar les conseqüències de la COVID-
+                19, les propostes més votades s’executarien l’any següent.
+            </p>
         </div>
     </main>
 
