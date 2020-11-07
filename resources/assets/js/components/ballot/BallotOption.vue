@@ -3,7 +3,8 @@
     <div :class="{
       'custom-checkbox': (type === 'checkbox'),
       'custom-radio': (type === 'radio') ,
-      'custom-control': true
+      'custom-control': true,
+      'ranked-choice': ranked
     }">
       <input
         :name="'ballot[' + option.question_id + ']'"
@@ -15,6 +16,7 @@
         class="custom-control-input" />
 
       <span class="custom-control-label">
+        <span v-if="ranked" :class="['ranked-choice-checkbox', { selected }]">{{ selected || '' }}</span>
         <span class="option-name" :id="'option-' + option.id">{{ option.option }}</span>
         <span v-if="displayCost && option.cost > 0" class="option-cost">{{ option.cost | formatCurrency }}</span>
       </span>
@@ -34,9 +36,10 @@
     props: {
       option: Object,
       type: String,
-      selected: Boolean,
+      selected: [Boolean, Number],
       disabled: Boolean,
-      displayCost: Boolean
+      displayCost: Boolean,
+      ranked: Boolean
     },
 
     filters: {
@@ -101,6 +104,30 @@
     .option-cost,
     .option-info {
       color: lighten($gray-light, 30%);
+    }
+  }
+
+  .ranked-choice {
+    .custom-control-label::before,
+    .custom-control-label::after {
+      display: none;
+    }
+
+    &-checkbox {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      left: -1.75rem;
+      top: 0;
+      border: 1px lighten($gray-light, 30%) solid;
+      width: 1.25rem;
+      height: 1.25rem;
+      border-radius: .25rem;
+
+      &.selected {
+        border-color: white;
+      }
     }
   }
 </style>
