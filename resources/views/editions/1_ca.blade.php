@@ -115,3 +115,13 @@
     <h3 id="about-2">Propostes</h3>
     [options]
 </section>
+
+<p class="about-block__warning" role="alert">
+    <i class="far fa-exclamation-circle"></i>
+    L’Equip de Govern comunica a la ciutadania que prioritzarà
+    les necessitats de persones i empreses afectades per
+    l’actual pandèmia. Per aquest motiu, si l’any 2021 foren
+    necessaris els diners destinats a aquests pressupostos
+    participatius per a pal·liar les conseqüències de la COVID-
+    19, les propostes més votades s’executarien l’any següent.
+</p>
