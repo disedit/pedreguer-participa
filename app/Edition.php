@@ -97,7 +97,7 @@ class Edition extends Model implements TranslatableContract
         if ($withBallot) {
             $edition->with(['questions' => function ($questionsQuery) {
                 $questionsQuery->with(['options' => function ($optionsQuery) {
-                    $optionsQuery->orderByRaw('rand()'); // Fix this later
+                    $optionsQuery->orderBy('id', 'ASC'); // Fix this later
                 }])->orderBy('id', 'asc');
             }]);
         }
