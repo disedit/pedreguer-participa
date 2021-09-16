@@ -134,4 +134,8 @@
     <div>
         {!! $edition->sidebar !!}
     </div>
+
+    <div class="text-center">
+        <img src="{{ asset('images/choice.svg') }}" width="80%" alt="" />
+    </div>
 </aside>
