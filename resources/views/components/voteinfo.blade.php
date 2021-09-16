@@ -2,7 +2,7 @@
     @if (!$inPerson)
         <div class="container">
             <div class="row">
-                <div class="col-md-8 vote-info__text">
+                <div class="col-md-7 vote-info__text">
                     <h2>@lang('participa.heading')</h2>
                     <p class="vote-info__intro">@lang('participa.subheading')</p>
 
@@ -21,8 +21,9 @@
                     @endif
                 </div>
 
-                <div class="col-lg-4 d-none d-lg-block">
-                    @include('components/calendar')
+                <div class="col-lg-5 d-flex align-items-end">
+                    {{-- @include('components/calendar') --}}
+                    <img src="{{ asset('images/illustration.svg') }}" class="vote-info__illustration" alt="" />
                 </div>
             </div>
         </div>

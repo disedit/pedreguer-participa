@@ -14,7 +14,9 @@
 
     <title>@yield('title'){{ config('app.name', 'Participa') }}</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Raleway:500,700,900" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700;900&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     @if (file_exists(public_path('css/fontawesome.css')))
         <link href="{{ mix('css/fontawesome.css') }}" rel="stylesheet">
