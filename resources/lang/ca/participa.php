@@ -41,7 +41,7 @@ return [
     */
     'poll' => 'Votació',
     'current_poll' => 'Votació actual',
-    'sidebar_dates' => 'Des del :start_date fins a :end_date',
+    'sidebar_dates' => 'Des del :start_date fins al :end_date',
     'more_info' => 'Més informació',
     'propose_cta' => 'Envia la teua proposta',
     'voting_places' => 'Punts de votació',
