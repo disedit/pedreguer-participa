@@ -12,7 +12,7 @@ return [
     'facebook_locale' => 'ca_ES',
     'heading' => '#TriaPedreguer',
     'subheading' => 'Els veïns i les veïnes de Pedreguer decidirem directament la prioritat de les inversions del nostre poble.',
-    'tweet' => 'He votat en què projectes vull que Pedreguer invertisca',
+    'tweet' => 'He votat en quins projectes vull que Pedreguer invertisca',
     'description' => 'Els veïns i les veïnes de Pedreguer decidirem directament la prioritat de les inversions del nostre poble.',
     'keywords' => 'Pedreguer, ajuntament, ayuntamiento, govern, obert, participacio ciutadana, democracia participativa, Pedreguer participa, votació, votación, referendum',
 
