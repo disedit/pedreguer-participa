@@ -1,6 +1,6 @@
 export default {
   global: {
-    tweet: 'He votat en què projectes vull que Pedreguer invertisca'
+    tweet: 'He votat en quins projectes vull que Pedreguer invertisca'
   },
   option: {
     cost: 'Cost',
