@@ -36,6 +36,15 @@
 
             <p>@lang('participa.help'): <a href="mailto:{{ config('participa.contact_email', 'participa@disedit.com') }}">{{ config('participa.contact_email', 'participa@disedit.com') }}</a></p>
 
+            <div class="inst-logos mt-4">
+                <a href="https://www.gva.es" target="_blank" rel="noopener">
+                    <img src="https://www.gva.es/portal-gva61-theme/images/GVA/logo_gva.png" alt="Generalitat Valenciana" height="50">
+                </a>
+                <a href="https://" target="_blank" rel="noopener">
+                    <img src="https://www.diputacionalicante.es/wp-content/uploads/2020/05/logo-diputacion-azul.png" alt="Diputación de Alicante" height="50" class="ml-3">
+                </a>
+            </div>
+
             <div class="wai-logo">
                 <a href="https://www.w3.org/WAI/WCAG2AA-Conformance" title="Explanation of WCAG 2.0 Level Double-A Conformance">
                     <img height="32" width="88" src="https://www.w3.org/WAI/wcag21/wcag2.1AA-blue-v.png" alt="Level Double-A conformance, W3C WAI Web Content Accessibility Guidelines 2.0">
