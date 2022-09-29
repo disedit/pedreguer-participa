@@ -1,0 +1,108 @@
+.pmus {
+    p {
+        font-size: 1.25rem;
+    }
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-weight: bold;
+        margin-top: 1.5rem;
+    }
+
+    .buttons {
+        display: grid;
+        gap: 1.5rem;
+
+        &-sticky {
+            position: sticky;
+            top: 4.5rem;
+        }
+    }
+
+    .huge-button {
+        display: flex;
+        background: $primary;
+        padding: 1rem;
+        border-radius: .75rem;
+        color: $white;
+        font-size: 1.25rem;
+        font-weight: bold;
+        border: 3px darken($primary, 10%) solid;
+        transition: .25s ease-in-out;
+        line-height: 1;
+        align-items: center;
+
+        &:hover {
+            text-decoration: none;
+            background: darken($primary, 10%);
+            box-shadow: $card-shadow;
+            transform: scale(1.025);
+
+            .far {
+                transform: rotate(-10deg) scale(1.1);
+            }
+        }
+
+        .far {
+            transition: .25s ease-in-out;
+            margin-right: .5rem;
+        }
+
+        &.main {
+            flex-direction: column;
+            padding: 2.5rem 2rem;
+            font-size: 2rem;
+            text-align: center;
+            font-weight: 800;
+
+            .far {
+                font-size: 4.5rem;
+                margin-bottom: 1rem;
+                margin-right: 0;
+            }
+        }
+    }
+
+    .no-news {
+        color: $gray-600;
+    }
+
+    .docs {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            margin: .25rem 0;
+        }
+
+        a {
+            padding: .25rem .5rem;
+            margin: 0 -.7rem;
+            border-radius: .5rem;
+
+            span {
+                font-size: .75rem;
+                background: mix($primary, $white, 15%);
+                padding: .15rem .25rem;
+                border-radius: .25rem;
+            }
+
+            &:hover {
+                background: mix($primary, $white, 15%);
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down (lg) {
+    .pmus {
+        p {
+            font-size: 1.1rem;
+        }
+    }
+}
