@@ -1,5 +1,7 @@
 @extends('layouts.public')
 
+@section('title', 'PMUS Pedreguer')
+
 @php
     $generalSurvey = 'https://docs.google.com/forms/d/e/1FAIpQLSfxMGALbcLF8zuECB1jtkUZ2AkkgOId1j3ThesxCqXW2YoniQ/viewform?usp=sf_link';
     $inbox = 'https://docs.google.com/forms/d/e/1FAIpQLSeNx34INDxb7hbMjunhUqeEjtijHZ5zJBBuLUPJFAGUjrgIyA/viewform?usp=sf_link';
@@ -53,7 +55,7 @@
         <p class="no-news">Encara no hi ha cap notícia</p>
         <h3>Documents</h3>
         <ul class="docs">
-            <li><a href="/docs/pmus/enquesta-general-val.pdf"><i class="far fa-file-alt fa-fw"></i> Enquesta General <span>PDF</span></a></li>
+            <li><a href="/docs/pmus/enquesta-pedreguer-val.pdf"><i class="far fa-file-alt fa-fw"></i> Enquesta General <span>PDF</span></a></li>
             <li><a href="/docs/pmus/enquesta-centre-educatiu-val.pdf"><i class="far fa-file-alt fa-fw"></i> Enquesta Centres Educatius <span>PDF</span></a></li>
             <li><a href="/docs/pmus/mapa-zonificacio.pdf"><i class="far fa-map fa-fw"></i> Pla de zonificació <span>PDF</span></a></li>
         </ul>
