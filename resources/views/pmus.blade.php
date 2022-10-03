@@ -1,6 +1,6 @@
 @extends('layouts.public')
 
-@section('title', 'PMUS Pedreguer')
+@section('title', 'PMUS Pedreguer -')
 
 @php
     $generalSurvey = 'https://docs.google.com/forms/d/e/1FAIpQLSfxMGALbcLF8zuECB1jtkUZ2AkkgOId1j3ThesxCqXW2YoniQ/viewform?usp=sf_link';
