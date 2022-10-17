@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\URL;
 
 Route::get('/', 'HomeController@index');
 Route::view('/pmus', 'pmus');
+Route::view('/pmus/{slug}', 'pmus');
 Route::get('/about', 'HomeController@about');
 Route::get('/propose', 'HomeController@propose');
 Route::get('/booth/{route}', 'HomeController@index');
