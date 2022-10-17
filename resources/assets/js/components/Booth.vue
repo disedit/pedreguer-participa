@@ -50,7 +50,7 @@
 
     computed: {
       fullID () {
-        return this.ID.substr(this.ID.length - 5) + this.year;
+        return this.ID;
       }
     },
 
