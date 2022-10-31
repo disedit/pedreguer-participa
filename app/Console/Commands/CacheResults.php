@@ -123,7 +123,14 @@ class CacheResults extends Command
 
             foreach ($decodedBallot as $question => $options) {
                 foreach ($options as $option => $points) {
-                    $this->tab[$question][$option] = (isset($this->tab[$question][$option])) ? $this->tab[$question][$option] + $points : $points;
+                    if (count($options) == 2) {
+                        $realPoints = ($points == 2.0) ? 3.0 : 2.0;
+                    } elseif (count($options) == 1) {
+                        $realPoints = 3.0;
+                    } else {
+                        $realPoints = $points;
+                    }
+                    $this->tab[$question][$option] = (isset($this->tab[$question][$option])) ? $this->tab[$question][$option] + $realPoints : $realPoints;
                 }
             }
 
