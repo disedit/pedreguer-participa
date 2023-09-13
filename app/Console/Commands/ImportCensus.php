@@ -65,9 +65,11 @@ class ImportCensus extends Command
 
         foreach ($lines as $line) {
             if (empty($line)) continue;
+            $parts = explode(";", $line);
             $voter = new Voter;
-            $voter->SID = $this->cleanSID($line);
-            $voter->gender = 'F';
+            $voter->SID = $this->cleanSID($parts[0] . $parts[1]);
+            if ($parts[1]) $voter->year = $parts[1];
+            $voter->gender = ($parts[2] === 'V') ? 'M' : 'F';
             $voter->edition_id = $edition->id;
             $voter->save();
         }

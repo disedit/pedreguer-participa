@@ -3,7 +3,7 @@
     <h3><i class="fa fa-user" aria-hidden="true"></i> {{ $t('booth_identification.heading') }}</h3>
     <p class="subheading" v-html="$t('booth_identification.subheading', { min_age, municipality })"></p>
     <div class="row">
-      <div class="col-12">
+      <div class="col-lg-8 mb-2 mb-lg-0">
         <text-input
           name="identification"
           ref="identificationInput"
@@ -16,6 +16,12 @@
           @focus="autofocus = true"
           @blur="autofocus = false"
           aria-describedby="id_tooltip" />
+          <div class="text-muted" id="id_tooltip">{{ $t('booth_identification.id_tooltip') }}</div>
+      </div>
+      <div class="col-lg-4">
+        <year-select
+          :value="year"
+          @change="updateYear" />
       </div>
     </div>
 
